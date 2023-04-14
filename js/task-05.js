@@ -4,7 +4,7 @@ function renameOutput(event) {
   if (event.currentTarget.value != false) {
     titleOutputEl.textContent = event.currentTarget.value;
   } else {
-    titleOutputEl.textContent = Anonymous;
+    titleOutputEl.textContent = "Anonymous";
   }
 }
 inputEl.addEventListener("input", renameOutput);
